@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "Activity";
+    Layout = "~/Views/Shared/_AppLayout.cshtml";
+}
+<script src="~/AngularJS/Activity/jsActivityController.js"></script>
+<script src="~/AngularJS/AjsFactory/AjsFactory.js"></script>
+
+
+<div ng-controller="ActivityController">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Add Activity</h4>
+                    <form name="form" ng-submit="addActivity()">
+                        @*<div class="form-group" >
+                            <label for="inputActivity2">Activity Id</label>
+                            <div class="input-group">
+                                <input class="form-control" id="inputActivityid2" placeholder="Enter Activity Id" required type="text" ng-model="form.activityid" autofocus>
+                            </div>
+                        </div>*@
+                        <div class="form-group">
+                            <label for="inputActivityname2">Activity Name</label>
+                            <div class="input-group">
+                                <input class="form-control" id="inputActivityname2" placeholder="Enter Activity Name" type="text" required ng-model="form.activityname" >
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="intType1">Branch :</label>
+                            <select class="custom-select form-control" id="intType1" data-placeholder="Type to search cities" name="intType1" ng-model="form.Branchname" required>
+                               
+                                <option value="">Select Branch</option>
+                                <option value="1">Mumbai Fort Road</option>
+                                <option value="2">Mumbai VG </option>
+                                <option value="3">Mumbai North</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="Location1">City :</label>
+                            <select class="custom-select form-control" id="Location1" name="location" ng-model="form.City">
+                                <option value="">Select City</option>
+                                <option value="1">Mumbai</option>
+                                <option value="2">Nagpur</option>
+                                <option value="3">Bhopal</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Location1">State :</label>
+                            <select class="custom-select form-control" id="Location1" name="location" ng-model="form.State">
+                                <option value="">Select State</option>
+                                <option value="1">Madhya Pradesh</option>
+                                <option value="2">Maharastra</option>
+                                <option value="3">Gujrat</option>
+                            </select>
+                        </div>
+
+                       
+                            <button type="submit" class="btn btn-success waves-effect waves-light" ng-click="addActivity()">Add</button>
+                            @*<button type="submit" class="btn btn-danger waves-effect waves-light">Cancel</button>*@
+                 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
