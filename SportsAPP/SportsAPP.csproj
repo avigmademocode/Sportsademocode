@@ -209,6 +209,7 @@
     <Content Include="AngularJS\HomeApp.js" />
     <Content Include="AngularJS\jsConfig.js" />
     <Content Include="AngularJS\MembershipRenewal\jsMembershipRenewalController.js" />
+    <Content Include="AngularJS\testdemojs.js" />
     <Content Include="AngularJS\ViewBranch\jsBranchController.js" />
     <Content Include="AngularJS\ViewMember\jsViewMember.js" />
     <Content Include="AngularJS\ViewRequest\jsViewRequestController.js" />
