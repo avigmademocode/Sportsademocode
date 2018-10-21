@@ -214,6 +214,7 @@
     <Content Include="AngularJS\ViewMember\jsViewMember.js" />
     <Content Include="AngularJS\ViewRequest\jsViewRequestController.js" />
     <Content Include="AngularJS\ViewRequest\jsViewRequestFactory.js" />
+    <Content Include="AngularJS\vsconfig.js" />
     <Content Include="assets\css\basestyle\style.css" />
     <Content Include="assets\css\codemirror\codemirror.css" />
     <Content Include="assets\css\colorpicker\bootstrap-colorpicker.min.css" />
